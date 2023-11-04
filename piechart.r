@@ -1,0 +1,5 @@
+x<-c(20,65,15,50)
+labels<-c("India","America","Srilanka","Nepal")
+png(file="country.jpg")
+pie(x,labels,main="Country pie chart")
+dev.off()

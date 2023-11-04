@@ -1,0 +1,6 @@
+pie(X,Labels,Radius,Main,Col,Clockwise)
+X<-c(20,65,15,50)
+labels<-c("India","America","Srilanka","Nepal")
+png(file="country.jpg")
+pie(X,labels)
+dev.off()
